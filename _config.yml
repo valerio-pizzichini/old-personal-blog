@@ -1,9 +1,9 @@
 # Site Specific Configuration
-name: LightSpeed
-description: A simple Jekyll theme
-url: https://example.com
-author: tajacks
-timezone: America/Toronto
+name: Wès
+description: Wès writes
+url: https://wès.me
+author: wès
+timezone: Europe/Rome
 timezone_short: ET
 
 # Keywords
