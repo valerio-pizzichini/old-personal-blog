@@ -16,8 +16,8 @@ author:
 # Analytics (Plausible requires sign-up)
 analytics:
   plausible:
-    enabled: false
-    site_fqdn: 'your.site.fqdn'
+    enabled: true
+    site_fqdn: 'https://sf3ris.github.io'
     script_source: 'https://plausible.io/js/script.js'
 
 # Styling
@@ -30,7 +30,7 @@ sass:
 pagination:
   enabled: true
   # Value set low for demonstration purposes
-  per_page: 3
+  per_page: 10
   sort_field: 'date'
   sort_reverse: true
 
