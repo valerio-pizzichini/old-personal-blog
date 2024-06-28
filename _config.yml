@@ -25,16 +25,13 @@ sass:
   sass_dir: _sass
   style: expanded # compact, expanded or compressed
 
-
 # Paginate
 pagination:
   enabled: true
-  # Value set low for demonstration purposes
   per_page: 10
   sort_field: 'date'
   sort_reverse: true
 
-# Category Paginating
 autopages:
   enabled: true
   categories:

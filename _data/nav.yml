@@ -1,6 +1,9 @@
+- name: Home
+  link: /
 - name: Posts
   link: /posts
 - name: Categories
   link: /categories/
-- name: About & Contact
-  link: /
+- name: Skills & Experience
+  link: /skills
+

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Code snapshot from NeoVim"
-date:   2024-06-26 18:08:06 +0200
+title: "Code snapshot from NeoVim"
+date: 2024-06-26 18:08:06 +0200
 categories: code
 ---
 
