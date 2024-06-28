@@ -4,10 +4,14 @@ description: Wès writes
 url: https://wès.me
 author: wès
 timezone: Europe/Rome
-timezone_short: ET
+timezone_short: CET
 
-# Keywords
-keywords: ['seo', 'key', 'words']
+license:
+  link: 'https://creativecommons.org/licenses/by-nc/4.0'
+  label: 'CC BY-NC 4.0'
+author:
+  name: Valerio Pizzichini
+  email: valerio.pizzichini@pm.me
 
 # Analytics (Plausible requires sign-up)
 analytics:
@@ -20,6 +24,7 @@ analytics:
 sass:
   sass_dir: _sass
   style: expanded # compact, expanded or compressed
+
 
 # Paginate
 pagination:
@@ -45,4 +50,5 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jemoji
 
