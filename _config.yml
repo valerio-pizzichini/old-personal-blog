@@ -17,7 +17,7 @@ author:
 analytics:
   plausible:
     enabled: true
-    site_fqdn: 'https://sf3ris.github.io'
+    site_fqdn: 'sf3ris.github.io'
     script_source: 'https://plausible.io/js/script.js'
 
 # Styling
