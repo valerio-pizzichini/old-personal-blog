@@ -6,6 +6,16 @@ author: wès
 timezone: Europe/Rome
 timezone_short: CET
 
+keywords: [
+  'sf3ris',
+  'wès',
+  'valerio',
+  'pizzichini',
+  'neovim',
+  'nvim',
+  'tech blog',
+]
+
 license:
   link: 'https://creativecommons.org/licenses/by-nc/4.0'
   label: 'CC BY-NC 4.0'
