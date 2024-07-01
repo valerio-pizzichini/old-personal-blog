@@ -3,13 +3,13 @@ layout: default
 title: Wès writes
 ---
 
-## About me
+## About me 🏋️ 🖥️
 Hi there, I'm Valerio Pizzichini and this is my secret vault.  
 I'm a Senior Software Engineer. I love designing and building scalable and distributed applications.
 
-Love to code in TypeScript, React, Rust and Elixir.
+Love to code in TypeScript, Rust and Elixir.
 
-Hybrid athlete on spare time 🏃
+Hybrid athlete on spare time 🏃 More information on this topic to come
 
 ## Why this vault? was it really needed?
 
