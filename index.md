@@ -13,7 +13,7 @@ Hybrid athlete on spare time 🏃
 
 ## Why this vault? was it really needed?
 
-Decided to transform my notes, learnings and failures (mostly) into public posts to share my journey and improve my skills in writing and exposing thoughts in a readable way.
+Decided to transform my notes, learnings and failures into public posts to share my journey and improve my skills in writing and exposing thoughts in a readable way.
 Probably I will fail at it, so if you want to increase my impostor syndrome level, please contact me at:
 
 <p style="display:flex; margin-bottom: 10px;">
@@ -28,6 +28,9 @@ Probably I will fail at it, so if you want to increase my impostor syndrome leve
   </a>
 </p>
 
----
+## My career
+
+{% include experiences.html %}
+
 {% include latest_posts.html %}
 

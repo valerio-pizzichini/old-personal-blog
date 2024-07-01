@@ -1,0 +1,29 @@
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem; // Adjust gap between cards as needed
+}
+
+.card {
+  border: 1px solid #e5e7eb; // Card border color
+  border-radius: 0.5rem; // Card border radius
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); // Card shadow
+  padding: 1rem; // Card padding
+  flex: 1 1 calc(33.333% - 1rem); // 3 cards per row
+  box-sizing: border-box; // Include padding and border in the element's total width and height
+
+  @media (max-width: 768px) {
+    flex: 1 1 calc(50% - 1rem); // 2 cards per row on small screens
+  }
+
+  @media (max-width: 480px) {
+    flex: 1 1 100%; // 1 card per row on very small screens
+  }
+}
+
+.card li {
+  font-size: 14px;
+  line-height: 20px;
+}
