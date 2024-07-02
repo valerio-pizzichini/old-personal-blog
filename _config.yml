@@ -1,14 +1,15 @@
 # Site Specific Configuration
 name: Wès
 description: Wès writes
-url: https://wès.me
-author: wès
+url: https://weswrites.me/
 timezone: Europe/Rome
 timezone_short: CET
 
 keywords: [
   'sf3ris',
   'wès',
+  'writes',
+  'weswrites',
   'valerio',
   'pizzichini',
   'neovim',
@@ -27,7 +28,7 @@ author:
 analytics:
   plausible:
     enabled: true
-    site_fqdn: 'sf3ris.github.io'
+    site_fqdn: 'weswrites.me'
     script_source: 'https://plausible.io/js/script.js'
 
 # Styling
