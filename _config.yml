@@ -1,6 +1,7 @@
 # Site Specific Configuration
-name: Wès
-description: Wès writes
+name: Wes Writes
+title: Wes Writes di Valerio Pizzichini 
+description: Wès writes di Valerio Pizzichini
 url: https://weswrites.me/
 timezone: Europe/Rome
 timezone_short: CET
@@ -22,6 +23,7 @@ license:
   label: 'CC BY-NC 4.0'
 author:
   name: Valerio Pizzichini
+  url: https://weswrites.me/
   email: valerio.pizzichini@pm.me
 
 # Analytics (Plausible requires sign-up)
@@ -51,7 +53,14 @@ autopages:
     silent: false
 
 # Exclusions
-exclude: [ 'README.md', 'COPYING' ]
+exclude: [ 
+  'README.md', 
+  'COPYING',
+  'Gemfile',
+  'Gemfile.lock',
+  'LICENSE.md',
+  'vendor'
+]
 
 # Plugins
 plugins:
