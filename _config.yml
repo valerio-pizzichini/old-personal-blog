@@ -68,4 +68,5 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jemoji
+  - jekyll-sitemap
 

@@ -6,3 +6,5 @@ gem "jekyll-paginate-v2"
 gem "jekyll-seo-tag"
 gem "webrick"
 gem "jemoji"
+gem "jekyll-sitemap"
+
