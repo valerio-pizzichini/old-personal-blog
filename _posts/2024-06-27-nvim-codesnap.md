@@ -43,13 +43,24 @@ This snippet has been created in just two steps:
     
 ### How to install
 
-If you are using [Lazy]([https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)) as package manager you just need to add the plugin to the lazy list
+If you are using [Lazy]([https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)) as package manager you just need to add the plugin 
 
-![Untitled](/assets/codesnap/lazy.png)
-
-and if you wish to tweak a bit the configuration, just simple add a file called `codesnap.lua` under the folder `nvim/lua/custom/config` .
-
-![Untitled](/assets/codesnap/plugin-settings.png)
+```lua
+  {
+    "mistricky/codesnap.nvim", 
+    lazy = true,
+    build = "make",
+    cmd = { "CodeSnapSave", "CodeSnap" },
+    config = function () 
+      return require("codesnap").setup({
+        bg_theme = "bamboo",
+        watermark = "",
+        save_path = "~/Downloads/"
+      })
+    end
+  },
+```
+For a complete example, see my [dotfile repository](https://github.com/sf3ris/dotfiles/blob/48317a0093266076ce95b5e6cfc96b9a623f38ea/config/nvim/lua/plugins/init.lua#L66)
 
 ### Worth mentioning feature
 
