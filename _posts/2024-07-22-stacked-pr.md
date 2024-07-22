@@ -2,6 +2,7 @@
 layout: post
 title: "Maximizing Efficiency with Stacked PRs"
 description: "How to use the stacked PR approach to increase the productivity. A deep dive into tech giants stacked pr usage"
+image: /assets/stacked-pr/comparison.png
 date: 2024-07-22 11:40:06 +0200
 categories: code
 tags: 
